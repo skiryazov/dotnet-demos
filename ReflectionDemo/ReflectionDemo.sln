@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionDemo", "ReflectionDemo\ReflectionDemo.csproj", "{AE862632-1F6F-4AED-AEB5-0B3E47AF363E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathTests", "MathTests\MathTests.csproj", "{754B5CD3-DD00-4328-8C79-1B9E1676B6AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D2C82FA-6EB2-45FA-BE2D-732BB992CB26}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE862632-1F6F-4AED-AEB5-0B3E47AF363E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE862632-1F6F-4AED-AEB5-0B3E47AF363E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE862632-1F6F-4AED-AEB5-0B3E47AF363E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE862632-1F6F-4AED-AEB5-0B3E47AF363E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754B5CD3-DD00-4328-8C79-1B9E1676B6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754B5CD3-DD00-4328-8C79-1B9E1676B6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754B5CD3-DD00-4328-8C79-1B9E1676B6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754B5CD3-DD00-4328-8C79-1B9E1676B6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFCD4A2D-E572-45DC-B3E4-58364E8D4D47}
+	EndGlobalSection
+EndGlobal
