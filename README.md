@@ -8,7 +8,9 @@ These demos have been created as companions to the .NET courses I teach where th
 The following ones are available for the moment:
 
 * ReflectionDemo
+
 Illusrates use of reflection by means of one of its most common applications - unit test for a private method
 
-* DateTime arithmetic
+* DateTimeOperators
+
 Want to know what happens when you add or subtract DateTime and TimeSpan instances? Run this code and you'll see.
