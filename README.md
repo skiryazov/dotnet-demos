@@ -14,3 +14,4 @@ Illusrates use of reflection by means of one of its most common applications - u
 * DateTimeOperators
 
 Want to know what happens when you add or subtract DateTime and TimeSpan instances? Run this code and you'll see.
+Bonus: Implementing custom operators
