@@ -13,7 +13,7 @@ namespace Operators
         {
             Employee employee = new Employee();
 
-
+            Console.WriteLine(employee.Sales[0].Customer.Address.City); // uh-oh!
 
             // the oldschool version
             if (employee!=null && employee.Sales!=null && employee.Sales.Length>0 && 
