@@ -19,7 +19,7 @@ namespace DateTimeOperators
 
             TimeSpan oneDay = new TimeSpan(1, 0, 0, 0);
             // What about this one?
-            var what2 = now + oneDay;
+            var what2 = now - oneDay;
             Console.WriteLine(what2);
 
             // And this?
@@ -28,7 +28,7 @@ namespace DateTimeOperators
 
             RationalNumber x = new RationalNumber(1, 2);
             // Go to the definition of RationalNumber to see how we implemented the custom multiplication
-            Console.WriteLine(x*x);
+            Console.WriteLine( x * x);
         }
     }
 }

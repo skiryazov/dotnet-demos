@@ -20,7 +20,7 @@ namespace NumberAndDateFormatting
             //String print = String.Format("The value on {0} was {1}", date, value); 
 
             // the l33t
-            String print = $"The value on {date.ToString("yyyy.MMMM.dd hh:mm:ss tt")} was {value:P3}"; 
+            String print = $"The value on {date.ToString("yy MMM dd")} was {value:P1}"; 
             // Other number format specifiers: Cx, E, Fx, G, N, Px
             // All the options DateTime: yyyy/yy MMMM/MM dd/d hh/h mm ss tt
             Console.WriteLine(print);

@@ -1,0 +1,16 @@
+﻿<Window x:Class="RegexDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegexDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtValidate" HorizontalAlignment="Left" Height="23" Margin="72,79,0,0" TextWrapping="Wrap" Text="sample@email.com" VerticalAlignment="Top" Width="374"/>
+        <TextBox x:Name="txtParse" HorizontalAlignment="Left" Height="201" Margin="72,136,0,0" TextWrapping="Wrap" Text="A piece of text with some sample1@example.com emails sprinkled sample2@example.com among the text, kinda what sample3@example.com spammers need to do in order to sample@otherexample.com in order to get people's emails." VerticalAlignment="Top" Width="374"/>
+        <Button x:Name="btnValidate" Content="Validate" HorizontalAlignment="Left" Margin="507,83,0,0" VerticalAlignment="Top" Width="75" Click="btnValidate_Click"/>
+        <Button x:Name="btnParse" Content="Parse" HorizontalAlignment="Left" Margin="507,136,0,0" VerticalAlignment="Top" Width="75" Click="btnParse_Click"/>
+
+    </Grid>
+</Window>
